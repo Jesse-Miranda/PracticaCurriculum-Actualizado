@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.grid-container{
+    background-color: gainsboro;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 2fr 4fr;
+}
+
+.grid-item{
+    margin: 10px;
+} 
+
+.grid-item:nth-child(1){
+    background-color: white;
+}
+
+.grid-item:nth-child(2){
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: 2fr 2fr;
+}
+
+.grid-subitem{
+    font-weight: bold;
+    display: grid;
+    background-color: white;
+}
+
+
